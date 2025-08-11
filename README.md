@@ -44,11 +44,5 @@ Al subir un archivo `.xlsx`, el sistema detecta las siguientes inconsistencias:
 💡 **Consejo:** Si tu archivo tiene nombres de columnas distintos a los ejemplos, igual podrás usarlos siempre que los relaciones correctamente en el paso 2.
 
 
----
-
-## 📁 Requisitos
-
-Instala las dependencias necesarias:
-
 ```bash
 pip install -r requirements.txt
