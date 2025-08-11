@@ -21,6 +21,29 @@ Al subir un archivo `.xlsx`, el sistema detecta las siguientes inconsistencias:
 5. **Fechas fuera del rango permitido**  
    Validación de que las fechas de pago estén dentro del año 2025.
 
+   📝 Instrucciones de uso
+
+1. **Sube tu archivo Excel (.xlsx)**  
+   - Haz clic en el botón "📤 Sube tu archivo Excel" y selecciona tu archivo desde tu computadora.  
+   - Asegúrate de que el archivo contenga todos los datos que deseas analizar.
+
+2. **Relaciona las columnas**  
+   - Una vez cargado el archivo, la aplicación mostrará los nombres de las columnas detectadas.  
+   - Usa los menús desplegables para indicar qué columna corresponde a cada campo requerido:  
+     - Proveedor  
+     - Estado  
+     - Fecha pago  
+     - Monto  
+     - Nº Factura  
+
+3. **Ejecuta las validaciones**  
+   - Haz clic en **"Ejecutar validaciones"** para que el sistema analice la base de datos.  
+   - Se mostrarán los resultados agrupados por tipo de inconsistencia.  
+   - Cada grupo podrá expandirse para ver el detalle de los registros afectados.
+
+💡 **Consejo:** Si tu archivo tiene nombres de columnas distintos a los ejemplos, igual podrás usarlos siempre que los relaciones correctamente en el paso 2.
+
+
 ---
 
 ## 📁 Requisitos
